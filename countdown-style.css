@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Iso'; 
+    src: url('AnaglyphIsometric-E0Rl.otf');
+}
+@font-face {
+    font-family: 'Isom'; 
+    src: url('Ponymaker-nzAg.ttf');
+}
+
+
+.timer {
+    color: royalblue;
+    font-family: 'Isom';
+    font-size: 100pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bod {
+    background-color: rgb(255, 239, 169);
+}
