@@ -1,14 +1,10 @@
 @font-face {
-    font-family: 'Iso'; 
-    src: url('AnaglyphIsometric-E0Rl.otf');
-}
-@font-face {
     font-family: 'Isom'; 
     src: url('Ponymaker-nzAg.ttf');
 }
 
 
-.timer {
+.timer { 
     color: rgb(59, 64, 176);
     font-family: 'Isom';
     font-size: 100pt;
@@ -17,6 +13,17 @@
     justify-content: center;
 }
 
+.timerElements{
+    
+    box-shadow: 15px -15px rgb(59, 64, 176);
+   background-color: rgb(255,255,255); 
+    padding: 30px;
+}
+
+/*.timerElements:hover {
+    box-shadow: 5px -5px rgb(59, 64, 176);
+  }
+*/
 .bod {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 168, 237)
 }
