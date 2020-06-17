@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Road to IF</title>
     <link rel="stylesheet" type="text/css" href="countdown-style.css" />
 </head>
 <body class= "bod">
     
 
-<p id="demo" class= "timer"></p>
+<p id="counter" class= "timer"></p>
 
 <script>
 var countDownDate = new Date("Jul 17, 2020 09:00:00").getTime();
@@ -24,11 +24,11 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "IF-START";
+    document.getElementById("counter").innerHTML = "IF-START";
   }
 }, 1000);
 </script>
