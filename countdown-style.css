@@ -7,7 +7,7 @@
 .timer { 
     color: rgb(59, 64, 176);
    background-color: rgb(255,255,255); 
-    box-shadow: 2vw -2vw rgb(59, 64, 176);
+    box-shadow: 2vw 2vw rgb(59, 64, 176);
     font-family: 'Isom';
     font-size: 7vw;
     display: flex;
