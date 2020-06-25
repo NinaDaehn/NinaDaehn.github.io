@@ -1,29 +1,26 @@
 @font-face {
     font-family: 'Isom'; 
-    src: url('Ponymaker-nzAg.ttf');
+    src: url('bloktilt.ttf');
 }
 
 
 .timer { 
     color: rgb(59, 64, 176);
+   background-color: rgb(255,255,255); 
+    box-shadow: 2vw -2vw rgb(59, 64, 176);
     font-family: 'Isom';
-    font-size: 100pt;
+    font-size: 7vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:10%;
+    
 }
-
 .timerElements{
     
-    box-shadow: 15px 15px rgb(59, 64, 176);
-   background-color: rgb(255,255,255); 
-    padding: 30px;
+    padding: 3%;
 }
 
-/*.timerElements:hover {
-    box-shadow: 5px -5px rgb(59, 64, 176);
-  }
-*/
 .bod {
     background-color: rgb(255, 168, 237)
 }
